@@ -1,0 +1,932 @@
+{
+    "common": [
+        {
+            "id" : 1,
+            "name" : "Pufferfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Pufferfish.png",
+            "location" : [
+                {"text" :"Oceans"}, 
+                {"text" :"Ginger Island"}
+            ],
+            "time": ["12pm - 4pm"],
+            "season": [
+                {"text" :"Summer"}
+            ],
+            "type": "common", 
+            "weather": "Sun",
+            "hasSpecified": null
+        },
+        {
+            "id": 2,
+            "name": "Anchovy",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Anchovy.png",
+            "location": [
+                {"text" :"Oceans"}
+            ],
+            "time": ["anytime"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall"}
+            ],
+            "type": "common",  
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 3,
+            "name": "Tuna",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Tuna.png",
+            "location": [
+                {"text" :"Oceans"}, 
+                {"text" :"Ginger Island"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common",  
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 4,
+            "name": "Sardine",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Sardine.png",
+            "location": [
+                {"text" :"Oceans"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 5,
+            "name": "Bream",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Bream.png",
+            "location": [
+                {"text" :"River" }
+            ],
+            "time": ["6am-2am"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Largemouth Bass",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/LargemouthBass.png",
+            "location": [
+                {"text" :"Mountain Lake"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 7,
+            "name": "Smallmouth Bass",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/SmallmouthBass.png",
+            "location": [
+                {"text" :"River"},
+                {"text" :"Forest Pond"}
+            ],
+            "time": ["anytime"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town" }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "Rainbow trout",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/RainbowTrout.png",
+            "location": [
+                {"text" :"River"},
+                {"text" :"Mountain Lake"}
+            ],
+            "time": ["6am - 7pm"],
+            "season" : [
+                {"text" :"Summer"}
+            ],
+            "type": "common", 
+            "weather": "Sun",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "Salmon",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Salmon.png",
+            "location": [
+                {"text" :"River"}
+            ],
+            "time": ["6am - 7pm"],
+            "season" : [
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "Walleye",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Walleye.png",
+            "location": [
+                {"text" :"River"},
+                {"text" :"Forest Pond"}, 
+                {"text" :"Mountain Lake"}
+            ],
+            "time": ["12pm - 2am"],
+            "season": [
+                {"text" :"Fall"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Rain",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ],
+                "season": [
+                    { "origin": "Winter", "specify": "Only rain totem" }
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "Perch",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Perch.png",
+            "location": [
+                {"text" :"River"},
+                {"text" :"Forest Pond"}, 
+                {"text" :"Mountain Lake"}
+            ],
+            "time": ["Anytime"],
+            "season" : [
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "Carp",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Carp.png",
+            "location": [
+                {"text" :"Mountain Lake"}, 
+                {"text" :"Secret Woods Pond"}, 
+                {"text" :"The Sewers"}
+            ],
+            "time": ["Anytime"],
+            "season" : [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 13,
+            "name": "Catfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Catfish.png",
+            "location": [
+                {"text" :"River"} , 
+                {"text" :"Secrets Woods Pond"}, 
+                {"text" :"Witch's Swamp"}
+            ],
+            "time": ["6am - 12am"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall" },
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Rain",
+            "hasSpecified":{
+                "location":[
+                    { "origin": "River", "specify":"Town and forest" }
+                ],
+                "season": [
+                    { "origin": "Summer", "specify": "In secret wood pond or Witch's swamp"},
+                    { "origin": "Winter", "specify": "Only rain totem"}
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "Pike",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Pike.png",
+            "location": [
+                {"text" :"River"} ,
+                {"text" :"Forest Pond"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":{
+                "location": [
+                    { "origin":"River", "specify":"Town and forest"}
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "Sunfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Sunfish.png",
+            "location": [
+                {"text" :"River", "exact": "Town + Forest"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Spring"}
+            ],
+            "type": "common", 
+            "weather": "Sun",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify":"Town and forest"}
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "Red mullet",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/RedMullet.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 17,
+            "name": "Herring",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Herring.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Winter"} 
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 18,
+            "name": "Eel",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Eel.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["4pm - 2am"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Rain",
+            "hasSpecified":null
+        },
+        {
+            "id": 19,
+            "name": "Octopus",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Octopus.png",
+            "location": [
+                {"text": "Oceans"} 
+            ],
+            "time": ["6am - 1pm"],
+            "season": [
+                {"text" :"Summer"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 20,
+            "name": "Red snapper",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/RedSnapper.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Fall"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Rain",
+            "hasSpecified":{
+                "season":[
+                    { "origin": "Winter", "specify":"Only rain totem"}
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Squid",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Squid.png",
+            "location": [
+                {"text": "Oceans"} 
+            ],
+            "time": ["6pm-2am"],
+            "season": [
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 22,
+            "name": "Sea cucumber",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/SeaCucumber.png",
+            "location": [
+                {"text": "Oceans"} 
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Fall"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 23,
+            "name": "Super cucumber",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/SuperCucumber.png",
+            "location": [
+                {"text": "Oceans"} ,
+                {"text": "Ginger Island"} 
+            ],
+            "time": ["6am - 2am"],
+            "season": [
+                {"text" :"Fall"},
+                {"text" :"Summer"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 24,
+            "name": "Ghost fish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/GhostFish.png",
+            "location": [
+                {"text": "Mines"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location":[
+                    { "origin": "Mines", "specify": "Level 20-60" },
+                    { "origin": "Mines", "specify": "Ghost drop" }
+                ]
+            }
+        },
+        {
+            "id": 25,
+            "name": "Stone fish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/StoneFish.png",
+            "location": [
+                {"text": "Mines"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":{
+                "location":[
+                    { "origin": "Mines", "specify": "Requiere fishing lvl.3"},
+                    { "origin": "Mines", "specify": "Level 20"}
+                ]
+            }
+        },
+        {
+            "id": 26,
+            "name": "Ice pip",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/IcePip.png",
+            "location": [
+                {"text": "Mines"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":{
+                "location":[
+                    { "origin":"Mines", "specify":"Requiere fishing lvl.5" },
+                    { "origin":"Mines", "specify":"Level 60" }
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "name": "Lava eel",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/LavaEel.png",
+            "location": [
+                {"text": "Mines"}, 
+                {"text": "Volcano caldera"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location":[
+                    { "origin":"Mines", "specify":"Requiere fishing lvl.7" },
+                    { "origin":"Mines", "specify":"Level 100" }
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "name": "Sandfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Sandfish.png",
+            "location": [
+                {"text": "Desert"} 
+            ],
+            "time": ["6am - 8pm"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 29,
+            "name": "Scorpion carp",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/ScorpionCarp.png",
+            "location": [
+                {"text": "Desert"}
+            ],
+            "time": ["6am - 9pm"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "Desert", "specify": "Requiere fishing lvl.4" }
+                ]
+            }
+        },
+        {
+            "id": 30,
+            "name": "Flounder",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Flounder.png",
+            "location": [
+                {"text": "Oceans"}, 
+                {"text": "Ginger island"} 
+            ],
+            "time": ["6am - 8pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Spring"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": null
+        },
+        {
+            "id": 31,
+            "name": "Midnight carp",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/MidnightCarp.png",
+            "location": [
+                {"text": "Mountain lake"}, 
+                {"text": "Cindersap Forest pond"}, 
+                {"text": "Ginger island"}
+            ],
+            "time": ["10pm - 2am"],
+            "season": [
+                {"text" :"Fall"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "Ginger island", "specify": "Pond and river" }
+                ]
+            }
+        },
+        {
+            "id": 32,
+            "name": "Sturgeon",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Sturgeon.png",
+            "location": [
+                {"text": "Mountain lake"} 
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 33,
+            "name": "Tiger trout",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/TigerTrout.png",
+            "location": [
+                {"text": "River", "exact": "Town + Forest"} 
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Winter"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 34,
+            "name": "Bullhead",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Bullhead.png",
+            "location": [
+                {"text": "Mountain lake"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 35,
+            "name": "Tilapia",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Tilapia.png",
+            "location": [
+                {"text": "Oceans"}, 
+                {"text": "Ginger island"}
+            ],
+            "time": ["6am - 2pm"],
+            "season": [
+                {"text" :"Summer"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "Ginger island", "specify": "River" }
+                ]
+            }
+        },
+        {
+            "id": 36,
+            "name": "Chub",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Chub.png",
+            "location": [
+                {"text": "River"},
+                {"text": "Mountain lake"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 37,
+            "name": "Dorado",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Dorado.png",
+            "location": [
+                {"text": "River"}
+            ],
+            "time": ["6am - 7pm"],
+            "season": [
+                {"text" :"Summer"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Forest" }
+                ]
+            }
+        },
+        {
+            "id": 38,
+            "name": "Albacore",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Albacore.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["6am - 11am ", " 6pm - 2am"],
+            "season": [
+                {"text" :"Winter"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 39,
+            "name": "Shad",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Shad.png",
+            "location": [
+                {"text": "River"} 
+            ],
+            "time": ["9am - 2am"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Summer"},
+                {"text" :"Fall"}
+            ],
+            "type": "common", 
+            "weather": "Rain",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 40,
+            "name": "Lingcod",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Lingcod.png",
+            "location": [
+                {"text": "River"},
+                {"text": "Mountain lake"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified": {
+                "location": [
+                    { "origin": "River", "specify": "Town and forest" }
+                ]
+            }
+        },
+        {
+            "id": 41,
+            "name": "Halibut",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Halibut.png",
+            "location": [
+                {"text": "Oceans"}
+            ],
+            "time": ["6am - 11am", "7pm - 2am"],
+            "season": [
+                {"text" :"Spring"},
+                {"text" :"Summer"},
+                {"text" :"Winter"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 42,
+            "name": "Woodskip",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Woodskip.png",
+            "location": [
+                {"text": "Secret woods pond"}, 
+                {"text": "Forest farm"}
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 43,
+            "name": "Void salmon",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/VoidSalmon.png",
+            "location": [
+                {"text": "Witch's swamp"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "common", 
+            "weather": "Any",
+            "hasSpecified":null
+        },
+        {
+            "id": 44,
+            "name": "Slimejack",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Slimejack.png",
+            "location": [
+                {"text": "Mutant bug lair"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                {"text" :"All"}
+            ],
+            "type": "legendary",
+            "weather": "Any",
+            "hasSpecified":null
+        },
+
+        {
+            "id": 48,
+            "name": "Crimson fish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/CrimsonFish.png",
+            "location": [
+                {"text": "East Pier on Beach"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                { "text" :"Summer"}
+            ],
+            "type": "legendary", 
+            "weather": "Any",
+            "hasSpecified": {
+                "season": [
+                    { "origin": "Summer", "specify": "Requiere lvl.5" }
+                ]
+            }
+        },
+        {
+            "id": 49,
+            "name": "Angler",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Angler.png",
+            "location": [
+                {"text": "North JojaMart on the wooden bridge"} 
+            ],
+            "time": ["Anytime"],
+            "season": [{ 
+                "text" :"Fall"
+            }],
+            "type": "legendary", 
+            "weather": "Any",
+            "hasSpecified": {
+                "season": [
+                    { "origin": "Fall", "specify": "Requiere fishing lvl.3" }
+                ]
+            }
+        },
+        {
+            "id": 50,
+            "name": "Legendary",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Legend.png",
+            "location": [
+                {"text": "The Mountain lake near the log"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                { "text" :"Spring"}
+            ],
+            "type": "legendary", 
+            "weather": "Rain",
+            "hasSpecified": {
+                "season": [
+                    { "origin": "Spring", "specify": "Requiere fishing lvl.10" }
+                ]
+            }
+        },
+        {
+            "id": 51,
+            "name": "Glacierfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Glacierfish.png",
+            "location": [
+                {"text": "Sourth end of arrowhead island in Cindersap Forest"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                { "text" :"Winter"}
+            ],
+            "type": "legendary", 
+            "weather": "Any",
+            "hasSpecified": {
+                "season": [
+                    { "origin": "Winter", "specify": "Requiere fishing lvl.6" }
+                ]
+            }
+        },
+        {
+            "id": 52,
+            "name": "Mutant carp",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/MutantCarp.png",
+            "location": [
+                {"text": "Sewers"} 
+            ],
+            "time": ["Anytime"],
+            "season": [
+                { "text" :"All"}
+            ],
+            "type": "legendary", 
+            "weather": "Any",
+            "hasSpecified":null
+        }
+    ],
+    "special": [
+        {
+            "id": 45,
+            "name": "Midnight squid",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/MidnightSquid.png",
+            "location": [
+                {"text": "Night Market fish"} 
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Spook fish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/SpookFish.png",
+            "location": [
+                {"text": "Night Market fish"} 
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Blobfish",
+            "portrait":"https://34sprites-stardew.000webhostapp.com/fishes/Blobfish.png",
+            "location": [
+                {"text": "Night Market fish"} 
+            ]
+        }
+    ]
+}
